@@ -60,7 +60,7 @@ def printing():
     try:
         path=r'C:\Users\yahia\Desktop\WebScrabing\gold_price.csv'
         file_exist=os.path.exists(path)
-        with open(path,'w',newline='',encoding='utf-8-sig') as file:
+        with open(path,'a',newline='',encoding='utf-8-sig') as file:
             wr=csv.DictWriter(file,header)
             if not file_exist:
                   wr.writeheader()
