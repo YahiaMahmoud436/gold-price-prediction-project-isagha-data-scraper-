@@ -1,4 +1,4 @@
-# Gold Price Scraper 🪙
+# Gold Price Scraper 
 
 This is a simple Python script that collects daily gold prices from the iSagha website and saves them into a CSV file. 
 
